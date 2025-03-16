@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.3s ease-in-out;
+
+}
+body{
+   min-width: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    overflow-x: hidden;
+    background-color: #a8d5e3;
+    color: white;
+}
+header{
+    margin-top: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem 9%;
+    background-color: transparent;
+    filter: drop-shadow(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    padding: 10px 20px;
+    box-shadow: 0px 4x 10px rgba(0, 0, 0, 0.1);
+}
+.logo{
+    font-size: 2rem;
+    color: #ff4081;
+    font-weight: bold;
+    transition: 0.3s;
+    border-bottom: 3px solid transparent;
+
+}
+.logo:hover{
+    transform: scale(1.1);
+}
+nav{
+    display: flex; 
+    gap: 20px;
+    justify-content: center;
+ 
+}
+nav a{
+    font-size: 1.4rem;
+    color: #ff4081;
+    margin-left: 2rem;
+    font-weight: bold;
+    transition: 0.3 ease-in-out;
+    text-decoration: none;
+    border-bottom: 3px solid;
+    padding: 10px 15px;
+}
+nav a:hover{
+    color: #ff0055 ;
+    border-bottom: 3px solid #ff0055;
+
+}
+@media(max-width:768px){
+nav{
+    flex-direction: column;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    top: 100%;
+    right: 0;
+    width: 50%;
+    border-left: 3px solid #ff78ac;
+    border-bottom-left-radius: 2rem ;
+    padding: 1rem solid;
+    background-color: #a8d5e3;
+    border-top: 0.1rem solid rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+}
+}
+nav a{
+    font-size: 1.4rem;
+    padding: 8px;
+    margin-left: 2rem;
+    margin: 1rem;
+}
+
+nav a:hover{
+    padding: 1rem;
+    border-radius: 0.5rem;
+
+}
+     
+
+section{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+.contact{
+    max-width: 600px;
+}
+h2{
+    font-size: 3em;
+    margin-top: 15rem;
+}
+p{
+    font-size: 1.2rem;
+}
+
+h3{
+    font-size: 1.5rem;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+iframe{
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px #ff0055;
+   align-items: center;
+}
+iframe:hover{
+    transform: scale(0.9);
+    transition: 0.3s ease-in-out;
+}
+img{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px #ff0055;
+}
+footer{
+    text-align: center;
+    padding: 10px;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+   font-size: 1rem;
+}   
